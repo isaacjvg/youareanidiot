@@ -1,3 +1,5 @@
+console.log("hola abby");
+// Ok ahi el resto del codigo B)
 const intv = 250;
 let isWhite = true;
 const audio = document.querySelector(".sound");
@@ -16,7 +18,6 @@ function toggle() {
 }
 
 function start() {
-  console.log("hola abby");
   toggle();
   setTimeout(() => requestAnimationFrame(start), intv);
 }
