@@ -16,6 +16,7 @@ function toggle() {
 }
 
 function start() {
+  console.log("hola abby");
   toggle();
   setTimeout(() => requestAnimationFrame(start), intv);
 }
